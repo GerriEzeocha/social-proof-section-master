@@ -55,8 +55,9 @@
         display: block;
         position: absolute;
         right: 0;
-        bottom: -19rem;
+        bottom: -8rem;
         z-index: -1;
+        width: 71%;
     }
 }
 
@@ -66,7 +67,7 @@
 
     @include breakpoints-up(large){
         display: grid;
-        grid-template-columns: repeat(2, 520px);
+        grid-template-columns: repeat(2, 554px);
         grid-gap: 4rem;
         margin-left: 6rem;
     }
@@ -287,6 +288,6 @@
 
     @include breakpoints-up(large){ 
         position: absolute;
-        bottom: -18rem;
+        bottom: -8rem;
     }
 }

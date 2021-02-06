@@ -87,8 +87,9 @@ body {
     display: block;
     position: absolute;
     right: 0;
-    bottom: -19rem;
+    bottom: -8rem;
     z-index: -1;
+    width: 71%;
   }
 }
 
@@ -101,8 +102,8 @@ body {
   .social-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (520px)[2];
-        grid-template-columns: repeat(2, 520px);
+    -ms-grid-columns: (554px)[2];
+        grid-template-columns: repeat(2, 554px);
     grid-gap: 4rem;
     margin-left: 6rem;
   }
@@ -395,7 +396,7 @@ body {
 @media (min-width: 64em) {
   .attribution {
     position: absolute;
-    bottom: -18rem;
+    bottom: -8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
