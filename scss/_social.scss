@@ -55,9 +55,9 @@
         display: block;
         position: absolute;
         right: 0;
-        bottom: -8rem;
+        bottom: -18rem;
+        left: 16rem;
         z-index: -1;
-        width: 71%;
     }
 }
 
@@ -69,7 +69,7 @@
         display: grid;
         grid-template-columns: repeat(2, 554px);
         grid-gap: 4rem;
-        margin-left: 6rem;
+        margin-left: 7rem;
     }
 }
 
@@ -83,6 +83,7 @@
 
     @include breakpoints-up(large){
         text-align: left;
+        margin-right: 0.625rem;
     }
 }
 
@@ -171,7 +172,8 @@
         flex-direction: row;
         height: 19rem;
         width: min-content;
-        margin-left: 1rem;
+        position: relative;
+        top: -1.875rem;
     }
 
     .testimonial-box {

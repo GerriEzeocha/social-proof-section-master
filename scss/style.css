@@ -87,9 +87,9 @@ body {
     display: block;
     position: absolute;
     right: 0;
-    bottom: -8rem;
+    bottom: -18rem;
+    left: 16rem;
     z-index: -1;
-    width: 71%;
   }
 }
 
@@ -105,7 +105,7 @@ body {
     -ms-grid-columns: (554px)[2];
         grid-template-columns: repeat(2, 554px);
     grid-gap: 4rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
   }
 }
 
@@ -121,6 +121,7 @@ body {
 @media (min-width: 64em) {
   .hero-text {
     text-align: left;
+    margin-right: 0.625rem;
   }
 }
 
@@ -251,7 +252,8 @@ body {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
-    margin-left: 1rem;
+    position: relative;
+    top: -1.875rem;
   }
 }
 
